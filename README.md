@@ -63,6 +63,54 @@ These vibrations change the capacitance between the diaphragm and a fixed backpl
 An integrated ASIC (Application-Specific Integrated Circuit) senses this change and outputs an electrical signal, either analog or digital.
 
 ## 🏗️MEMS USB Microphone
+- **SPL to Pressure Conversion**:
+
+$Pressure (Pa) = 10^{\frac{60 - 94}{20}} = 19.95 \times 10^{-3} \ Pa$
+
+- **Output Voltage (Peak):**
+
+$V_{out(peak)} = 2 \times 19.95 \times 10^{-3} \times 10^{\frac{-44}{20}} = \mathbf{0.178 \ mV_{pk}}$
+
+
+### Schematic
+
+<img width="1799" height="917" alt="image" src="https://github.com/user-attachments/assets/6ba7c98e-0302-4851-8ae8-2d3180e895bf" />
+
+
+## Laplace-Domain Analysis of Microphone
+
+<img width="1314" height="1401" alt="laplace domain analysis" src="https://github.com/user-attachments/assets/5af73271-55a6-467e-9dee-e5887c5fae1c" />
+
+
+
+
+
+
+
+# 📚 Resources
+
+## Useful Docs:
+- [Skywater PDK Manual](https://github.com/silicon-vlsi/SI-2026-AnalogIC/blob/main/docs/skywater-pdk-readthedocs-io-en-main.pdf)
+- [OPA344 Datasheet](https://www.ti.com/lit/ds/symlink/opa344.pdf)
+- [MEMS Microphone Datasheet](https://cdn.sparkfun.com/assets/0/5/8/b/1/SPH8878LR5H-1_Lovato_DS.pdf)
+- [Schematic: Sparkfun breakout board](https://cdn.sparkfun.com/assets/7/5/6/e/d/SparkFun_Analog_MEMS_Microphone_Breakout_SPH8878LR5H-1.pdf)
+- [SI-2025-AnalogIC](https://github.com/silicon-vlsi/SI-2025-AnalogIC)
+- Schematic/Layout Tutorials (Xschem, ngspice, Magic)
+
+
+
+# 🙏 Acknowledgments:
+This program would not have been possible without the guidance and support of my mentors *Dr. Saroj Rout* and teammates .Your expertise and encouragement have been instrumental in my learning and development.
+
+Here is the link of full course described by Dr. Saroj Rout https://github.com/silicon-vlsi/SI-2026-AnalogIC
+
+
+# 📄 License
+MIT License
+
+“Analog design is where art meets engineering.” 🎨⚙️
+
+
 
 
 
